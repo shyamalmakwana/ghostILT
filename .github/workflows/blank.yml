@@ -14,6 +14,6 @@ jobs:
       - name: execute Ghost Inspector test
         uses: docker://ghostinspector/cli
         with:
-          args: test execute  66509d573b8c989d7213cb41\
+          args: test execute 66509d573b8c989d7213cb41 \
             --apiKey ebe4caf266cbf35d234588fb0ac01ee1d62cf244 \            
             --errorOnFail
